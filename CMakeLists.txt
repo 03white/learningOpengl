@@ -9,8 +9,8 @@ set(CMAKE_C_STANDARD 11)
 # 生成 compile_commands.json，供 clangd / IDE 使用
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# 各章节子项目
-add_subdirectory(gl-01)
-add_subdirectory(gl-02)
-add_subdirectory(gl-03)
-add_subdirectory(gl-sample)
+# lessions: LearnOpenGL 教程跟练章节
+add_subdirectory(lessions)
+
+# projects: 自己的实践项目
+add_subdirectory(projects)
